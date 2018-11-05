@@ -1,0 +1,29 @@
+#Wx-wrap{
+	
+	width: 960px;
+	
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+
+#Wx-left{
+	
+	width: 625px;
+	
+	padding-left: 15px;
+	
+	float: left;
+}
+
+#Wx-aside{
+	
+	width: 280px;
+	
+	margin-left: 40px;
+	
+	background: #E0F2BE;
+	
+	float: left;
+}
+
