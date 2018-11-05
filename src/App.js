@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import WxMyHome from './component/Wx/WxMyHome.js'
+
 class App extends Component {
   render() {
     return (
@@ -21,7 +23,9 @@ class App extends Component {
           </a>
         </header>*/}
 					
-					<h3 style={{height: 55, background: "beige", margin: 0, padding: 0, "line-height": 55}}>我的主页</h3>
+			<h3 style={{height: 55, background: "beige", margin: 0, padding: 0, "lineHeight": 55}}>我的主页</h3>
+			
+			<WxMyHome/>
 				
       </div>
     );
