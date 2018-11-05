@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        {/*<header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -19,7 +19,10 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
+        </header>*/}
+					
+					<h3 style={{height: 55, background: "beige", margin: 0, padding: 0, "line-height": 55}}>我的主页</h3>
+				
       </div>
     );
   }
